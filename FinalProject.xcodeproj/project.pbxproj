@@ -14,6 +14,11 @@
 		833749231C8BC9CC004BCB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833749211C8BC9CC004BCB7E /* LaunchScreen.storyboard */; };
 		8337492E1C8BC9CC004BCB7E /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337492D1C8BC9CC004BCB7E /* FinalProjectTests.swift */; };
 		833749391C8BC9CC004BCB7E /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833749381C8BC9CC004BCB7E /* FinalProjectUITests.swift */; };
+		833749491C8BDF0E004BCB7E /* GroupMaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833749481C8BDF0E004BCB7E /* GroupMaintenanceViewController.swift */; };
+		8337494B1C8BF9E5004BCB7E /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337494A1C8BF9E5004BCB7E /* CreateGroupViewController.swift */; };
+		8337494D1C8BFD3A004BCB7E /* MessageGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337494C1C8BFD3A004BCB7E /* MessageGroupViewController.swift */; };
+		835B77621C8D23990066A450 /* addingMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B77611C8D23990066A450 /* addingMembersViewController.swift */; };
+		83E1F3111C93A90700904AAF /* DeleteMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1F3101C93A90700904AAF /* DeleteMembersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		833749341C8BC9CC004BCB7E /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833749381C8BC9CC004BCB7E /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		8337493A1C8BC9CC004BCB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833749481C8BDF0E004BCB7E /* GroupMaintenanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMaintenanceViewController.swift; sourceTree = "<group>"; };
+		8337494A1C8BF9E5004BCB7E /* CreateGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		8337494C1C8BFD3A004BCB7E /* MessageGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageGroupViewController.swift; sourceTree = "<group>"; };
+		835B77611C8D23990066A450 /* addingMembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addingMembersViewController.swift; sourceTree = "<group>"; };
+		83E1F3101C93A90700904AAF /* DeleteMembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteMembersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,8 @@
 		8337490C1C8BC9CC004BCB7E = {
 			isa = PBXGroup;
 			children = (
+				83E1F3101C93A90700904AAF /* DeleteMembersViewController.swift */,
+				8337494A1C8BF9E5004BCB7E /* CreateGroupViewController.swift */,
 				833749171C8BC9CC004BCB7E /* FinalProject */,
 				8337492C1C8BC9CC004BCB7E /* FinalProjectTests */,
 				833749371C8BC9CC004BCB7E /* FinalProjectUITests */,
@@ -100,6 +112,9 @@
 				833749181C8BC9CC004BCB7E /* AppDelegate.swift */,
 				8337491A1C8BC9CC004BCB7E /* ViewController.swift */,
 				8337491C1C8BC9CC004BCB7E /* Main.storyboard */,
+				835B77611C8D23990066A450 /* addingMembersViewController.swift */,
+				8337494C1C8BFD3A004BCB7E /* MessageGroupViewController.swift */,
+				833749481C8BDF0E004BCB7E /* GroupMaintenanceViewController.swift */,
 				8337491F1C8BC9CC004BCB7E /* Assets.xcassets */,
 				833749211C8BC9CC004BCB7E /* LaunchScreen.storyboard */,
 				833749241C8BC9CC004BCB7E /* Info.plist */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E1F3111C93A90700904AAF /* DeleteMembersViewController.swift in Sources */,
 				8337491B1C8BC9CC004BCB7E /* ViewController.swift in Sources */,
+				835B77621C8D23990066A450 /* addingMembersViewController.swift in Sources */,
+				833749491C8BDF0E004BCB7E /* GroupMaintenanceViewController.swift in Sources */,
+				8337494D1C8BFD3A004BCB7E /* MessageGroupViewController.swift in Sources */,
+				8337494B1C8BF9E5004BCB7E /* CreateGroupViewController.swift in Sources */,
 				833749191C8BC9CC004BCB7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +504,7 @@
 				8337493F1C8BC9CC004BCB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833749401C8BC9CC004BCB7E /* Build configuration list for PBXNativeTarget "FinalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				833749421C8BC9CC004BCB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833749431C8BC9CC004BCB7E /* Build configuration list for PBXNativeTarget "FinalProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				833749451C8BC9CC004BCB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
